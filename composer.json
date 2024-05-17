@@ -1,5 +1,5 @@
 {
-    "name": "cswni/laravel-env-set-command",
+    "name": "ermirshehaj/laravel-env-set-command",
     "description": "Set a .env file variable from the command line",
     "keywords": [
         "imliam",
