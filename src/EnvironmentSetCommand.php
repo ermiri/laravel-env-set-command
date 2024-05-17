@@ -81,7 +81,7 @@ class EnvironmentSetCommand extends Command
 
         // Wrap values that have a space or equals in quotes to escape them
         if (preg_match('/\s/',$value) || strpos($value, '=') !== false) {
-            $value = '"' . $value . '"';
+            //$value = '"' . $value . '"';
         }
 
         $newPair = $key . '=' . $value;
